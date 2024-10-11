@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.green{
+  background-color: green;
+  font-size: 20px;
+}
