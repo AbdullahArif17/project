@@ -3,18 +3,18 @@ import Link from "next/link";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Herosection/Hero";
 import SecTwo from "./components/SectionTwo/SecTwo";
-
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="bg-primary">
         <Header></Header>
         <ul className="flex flex-col items-center">
           <li>
             <Link
               href="/"
-              className="bg-rose-500 text-lg m-12 border-red-600 border-2"
+              className="bg-[#90BE6D] text-lg m-12 border-[#C9E3AC] border-2"
             >
               Home
             </Link>
@@ -22,12 +22,21 @@ export default function Home() {
           <li>
             <Link
               href="/about"
-              className="bg-rose-500 text-lg m-12 border-red-600 border-2"
+              className="bg-[#90BE6D] text-lg m-12 border-[#C9E3AC] border-2"
             >
               About
             </Link>
           </li>
         </ul>
+        <div className="flex justify-center">
+          <Image
+            className="bg-no-repeat bg-center bg-cover rounded-full"
+            src="/image/me.jpg"
+            width={200}
+            height={200}
+            alt="Picture of the author"
+          />
+        </div>
         <Hero></Hero>
         <SecTwo></SecTwo>
       </div>

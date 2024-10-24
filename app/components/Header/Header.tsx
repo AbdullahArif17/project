@@ -1,11 +1,11 @@
 export const Header = () => {
   return (
-    <div
+    
+    <div className="bg-[#37371F]"
       style={{
-        backgroundColor: "blue",
         textAlign: "center",
-        fontSize: 20,
-        padding: 20,
+        fontSize:15,
+        padding: 10,
       }}
     >
       The Header COMPONENT

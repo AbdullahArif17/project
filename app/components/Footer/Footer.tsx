@@ -1,17 +1,12 @@
 export const Footer = () => {
   return (
     <div
+      className="bg-[#37371F] text-center p-2 text-xs mt-auto flex justify-center items-end"
       style={{
-        backgroundColor: "darkblue",
-        textAlign: "center",
-        padding: 10,
-        fontSize: 20,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "end",
+        fontSize: 10,
       }}
     >
-      Footer
+      <main>Footer</main>
     </div>
   );
 };
