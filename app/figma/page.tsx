@@ -13,9 +13,9 @@ function Home() {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard
           </p>
-          <button>Contact US</button>
+          <button className="bg-white text-black w-[152px] h-[34px] ml-[111px]">Contact US</button>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
+        <div className="w-1/2 flex justify-center items-center font-medium text-2xl">
           <Image
             src={"./image/figma_image.svg"}
             alt="hero image"
