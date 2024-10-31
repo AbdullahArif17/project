@@ -27,6 +27,14 @@ export default function Home() {
               About
             </Link>
           </li>
+          <li>
+            <Link
+              href="/figma"
+              className="bg-[#90BE6D] text-lg m-12 border-[#C9E3AC] border-2"
+            >
+              Design
+            </Link>
+          </li>
         </ul>
         <div className="flex justify-center">
           <Image

@@ -10,7 +10,7 @@ const RootLayout : React.FC<Mainlayout> = (props) => {
   return (
     <html>
       <head></head>
-      <body className="font-style: italic font-mono " >
+      <body className="font-style: italic font-mono" >
         {props.children}
       </body>
     </html>

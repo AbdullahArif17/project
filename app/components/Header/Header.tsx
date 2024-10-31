@@ -1,16 +1,11 @@
-export const Header = () => {
+import React from "react";
+
+function Header() {
   return (
-    
-    <div className="bg-[#37371F]"
-      style={{
-        textAlign: "center",
-        fontSize:15,
-        padding: 10,
-      }}
-    >
-      The Header COMPONENT
-    </div>
+    <div
+      className="h-[88px] bg-[#D9D9D9]"
+    ></div>
   );
-};
+}
 
 export default Header;
