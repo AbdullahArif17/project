@@ -14,12 +14,11 @@ function Home() {
           <p className="text-xl md:text-2xl md:w-[571px] h-[156px] text-[#4C4C4C] mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             ut eligendi alias omnis nesciunt adipisci facere exercitationem
-            maxime doloribus placeat nam, iste est mollitia, aut nihil, debitis
-            .
+            maxime doloribus placeat nam, iste est mollitia,
           </p>
           <button
             aria-label="Contact us"
-            className="text-white bg-black w-[237px] h-[66px] mt-6 font-medium text-2xl"
+            className="text-white bg-black w-[237px] h-[66px] mt-8 font-medium text-2xl"
           >
             Contact Us
           </button>

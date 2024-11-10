@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <div
-      className="bg-[#EAEFBD]"
+      className="bg-white"
       style={{
         color: "black",
         marginBottom: 10,
