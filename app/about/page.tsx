@@ -1,7 +1,7 @@
 import Footer from "../components/Footer/Footer";
 import cssStyle from "./about.module.css";
 import Header from "../components/Header/Header";
-import Link from "next/link";
+
 
 const About = () => {
   return (
