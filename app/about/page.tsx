@@ -1,5 +1,4 @@
 import Footer from "../components/Footer/Footer";
-import cssStyle from "./about.module.css";
 import Header from "../components/Header/Header";
 
 
@@ -7,8 +6,8 @@ const About = () => {
   return (
     <>
       <Header></Header>
-      <h1 className={cssStyle.green}>About</h1>
-      <span className={cssStyle.green}>about page</span>
+      <h1 className='bg-black text-center font-semibold text-3xl'>About</h1>
+      <span className='text-left text-2xl font-normal'>about page</span>
       <Footer></Footer>
     </>
   );

@@ -1,13 +1,8 @@
 export function Hero() {
   return (
     <div
-      className="bg-white"
-      style={{
-        color: "black",
-        marginBottom: 10,
-        fontSize: 20,
-      }}
-    >
+      className="bg-white text-black mb-10 text-xl"
+      >
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quas
         nesciunt, quidem dignissimos consequatur laborum necessitatibus cumque
